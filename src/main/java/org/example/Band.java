@@ -29,11 +29,4 @@ public class Band {
     public int getNumOfMember() {
         return numOfMember;
     }
-
-    // バンド情報を標準出力するメソッド
-    public void outputBandInfo() {
-        System.out.println("エントリー番号：" + entryNumber);
-        System.out.println("バンド名：" + name);
-        System.out.println("メンバー数：" + numOfMember);
-    }
 }
