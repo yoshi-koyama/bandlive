@@ -5,9 +5,9 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // バンド情報を標準出力する
-        Band band1 = new Band(1, "ASIAN KUNG-FU GENERATION", 4);
-        Band band2 = new Band(2, "UNISON SQUARE GARDEN", 3);
-        Band band3 = new Band(3, "Rhythmic Toy World", 4);
+        Band band1 = Band.newInstance(1, "ASIAN KUNG-FU GENERATION", 4);
+        Band band2 = Band.newInstance(2, "UNISON SQUARE GARDEN", 3);
+        Band band3 = Band.newInstance(3, "Rhythmic Toy World", 4);
 
         List<Band> bandList = List.of(band1, band2, band3);
 
